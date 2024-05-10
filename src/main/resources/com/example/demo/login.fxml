@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="575.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.LoginController">
+   <Label layoutX="194.0" layoutY="39.0" text="LOGIN FORM">
+      <font>
+         <Font size="33.0" />
+      </font>
+   </Label>
+   <Label layoutX="19.0" layoutY="116.0" text="USERNAME">
+      <font>
+         <Font size="23.0" />
+      </font>
+   </Label>
+   <Label layoutX="18.0" layoutY="186.0" text="PASSWORD">
+      <font>
+         <Font size="23.0" />
+      </font>
+   </Label>
+   <PasswordField fx:id="pass" layoutX="184.0" layoutY="183.0" prefHeight="29.0" prefWidth="371.0" />
+   <TextField fx:id="username" layoutX="184.0" layoutY="115.0" prefHeight="29.0" prefWidth="371.0" />
+   <Button layoutX="19.0" layoutY="252.0" mnemonicParsing="false" onAction="#login" prefHeight="40.0" prefWidth="130.0" text="LOGIN" />
+   <Button layoutX="184.0" layoutY="252.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="130.0" text="CANCEL" />
+</AnchorPane>
